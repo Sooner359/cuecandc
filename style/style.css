@@ -1,0 +1,177 @@
+Body {
+    background-image: url(../img/Black\ honeycomb\ BG\ RGB.png);
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px;
+    font-size: large;
+    color: white;
+    clear: both;
+    border-top: white solid;
+}
+
+img.headerpic {
+    display: flex;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    flex-basis: 100%;
+    padding: 10px;
+    background-color: rgba(10, 1, 1, 0.6);
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #666565e3;
+    width: 35%;
+    margin-left: 100px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.text {
+    color: white;
+    font-size: xx-large;
+}
+
+.sub-text {
+    display: flex;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    width: 100%;
+}
+
+button {
+   /*background-image: url(../img/White\ honeycomb\ BG\ RGB.png);*/
+   height: 40px;
+   font-size: large;
+}
+
+a {
+    text-decoration: none;
+    text-decoration: black;
+    color: white;
+    padding: 15px;
+}
+
+.title {
+    display: flex;
+    font-size: large;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: large;
+}
+
+.famphoto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.famdesc {
+    display: flex;
+    color: white;
+    margin-left: 50px;
+}
+
+#conHeader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 33%;
+    color: white;
+    font-size: large;
+}
+
+img#conHeaderPic {
+    display: flex;
+    width: 100%;
+}
+
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+}
+
+#subBut{
+    width: 25%;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+}
+
+input{
+    appearance: none;
+    /* background: inherit; */
+}
+
+.subTitle{
+    border: white solid;
+    color: white;
+    margin: 10px;
+}
+
+.subTitle>p{
+    margin: 10px;
+}
+
+textarea{
+    resize: vertical;
+
+}
+
+.footLinks{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footLinks>a{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    border: white solid;
+    border-radius: 10px;
+    width: 60px;
+}
