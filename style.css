@@ -58,8 +58,8 @@ span.logo{
 
 .topbod>img{
     grid-column-start: 1;
-    max-width: 250px;
-    max-height: 150px;
+    max-width: 33%;
+    max-height: auto;
 }
 
 .midbod{
@@ -71,6 +71,8 @@ span.logo{
 }
 
 .midbod>img{
+    max-width: 66%;
+    max-height: auto;
     padding-bottom: 1%;
 }
 
@@ -100,8 +102,8 @@ span.logo{
 
 .lowerbod>img{
     grid-column-start: 2;
-    max-width: 750px;
-    max-height: 350px;
+    max-width: 66%;
+    max-height: auto;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -110,4 +112,76 @@ span.logo{
     grid-column-start: 1;
     grid-row-start: 2;
     padding-bottom: 3%;
+}
+
+.bottombod{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+
+.bottombod>p{
+    grid-column-start: 1;
+}
+
+.bottombod>img{
+    grid-column-start: 2;
+    max-width: 66%;
+    max-height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.topfoot{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+}
+
+.bottomfoot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 2%;
+    color: white;
+    background-color: silver;
+}
+
+.bottomfoot>img{
+    max-width: 75%;
+    min-height: 100%;
+    grid-row-start: 2;
+}
+
+.bottomfoot>p{
+    font-size: large;
+    color: black;
+}
+
+footer{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    border-top: solid white;
+    padding: 2%;
+}
+
+footer>button{
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-color: white;
+}
+
+footer>p{
+    font-size: large;
 }
