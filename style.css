@@ -49,6 +49,7 @@ p{
     display: grid;
     color: white;
     background-color: rgb(219, 0, 0);
+    padding: 2%;
 }
 
 .paras>img{
