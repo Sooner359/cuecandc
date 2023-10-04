@@ -4,6 +4,7 @@ body{
     height: 100%;
     background-size: contain;
 }
+
 p{
     font-size: x-large;
 }
@@ -11,9 +12,12 @@ p{
 .header{
     display: grid;
     align-items: center;
+    justify-items: center;
     margin: 15px;
     margin-bottom: 5%;
     grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+    border-bottom: solid silver;
+    padding-bottom: 2%;
 }
 
 .header>.home{
@@ -45,13 +49,20 @@ p{
 .header>a{
     color: white;
     text-decoration: none;
+    border: solid thin silver;
+    padding: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 5%;
 }
 
 .paras{
     display: grid;
     color: white;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(217, 3, 3);
     padding: 2%;
+    border-top: solid silver;
+    border-bottom: solid silver;
 }
 
 .paras>img{
@@ -69,6 +80,7 @@ p{
 
 .topbod>p{
     grid-column-start: 2;
+    padding: 2%;
 }
 
 span.logo{
@@ -106,8 +118,9 @@ span.logo{
 .heading{
     display: grid;
     justify-items: center;
-    background-color: rgb(219, 0, 0);
+    background-color: rgb(217, 3, 3);
     color: white;
+    border-top: solid silver;
 }
 
 .lowerbod{
@@ -173,6 +186,7 @@ span.logo{
     padding: 2%;
     color: white;
     background-color: silver;
+    border-bottom: solid rgb(217, 3, 3);
 }
 
 .bottomfoot>img{
@@ -193,6 +207,8 @@ span.logo{
     align-items: center;
     color: white;
     padding: 2%;
+    background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
+    background-size: cover;
 }
 
 .reviews>p{
@@ -206,6 +222,8 @@ span.logo{
 }
 
 footer{
+    background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
+    background-size: cover;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -226,4 +244,58 @@ footer>button{
 
 footer>p{
     font-size: large;
+}
+
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+}
+
+.contact{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    padding: 2%;
+}
+
+.mission{
+    background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
+    background-size: contain;
+    display: grid;
+    color: rgb(217, 3, 3);
+    padding: 4%;
+    border: solid silver;
+}
+
+.mission>p{
+    color: white;
+}
+
+.solutions{
+    color: rgb(217, 3, 3);
+    background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
+    background-size: cover;
+    border-bottom: solid silver;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2%;
+}
+
+.solutions>h2{
+    display: grid;
+    align-items: end;
+}
+
+.solutions>p{
+    color: white;
+    margin: 0px;
+}
+
+.solutions>ul{
+    color: white;
+    font-weight: bold;
 }
