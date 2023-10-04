@@ -1,6 +1,8 @@
 body{
     background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
     margin: 0px;
+    height: 100%;
+    background-size: contain;
 }
 p{
     font-size: x-large;
