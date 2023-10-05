@@ -318,3 +318,44 @@ label{
     color: white;
     font-weight: bold;
 }
+
+
+
+
+/* CSS for Mobile */
+@media (max-width: 767px) {
+    /* Add your mobile-specific styles here */
+    .header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .header > a, .header > button {
+        grid-column: 1;
+        margin-bottom: 10px;
+    }
+    
+    /* Reduce the font size for headings */
+    h1, h2 {
+        font-size: 24px;
+    }
+    
+    /* Adjust spacing or layout as needed for mobile */
+    
+    /* For example, remove the border-top from .heading */
+    .heading {
+        border-top: none;
+    }
+    
+    /* Center-align text in .bottomfoot */
+    .bottomfoot p {
+        text-align: center;
+    }
+    
+    /* Modify the layout for .solutions and .paras */
+    .solutions, .paras {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Additional mobile-specific styles can be added here */
+}
