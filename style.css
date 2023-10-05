@@ -52,8 +52,8 @@ p{
 .header>.started{
     grid-column-start: 5;
     grid-row-start: 1;
-    background-color: white;
-    color: black;
+    background-color: rgb(217, 3, 3);
+    color: rgb(179, 179, 179);
     border-radius: 5%;
 }
 
