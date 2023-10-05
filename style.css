@@ -20,11 +20,12 @@ p{
     justify-items: center;
     margin-bottom: 5%;
     grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
-    border-bottom: solid silver;
+    border-bottom: solid rgb(217, 3, 3);
     padding: 1%;
     position: fixed;
     background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
     background-size: cover;
+    padding-bottom: 0;
 }
 
 .header>.home{
@@ -48,7 +49,7 @@ p{
 }
 
 .header>.started{
-    grid-column-start: 6;
+    grid-column-start: 5;
     grid-row-start: 1;
     background-color: white;
     color: black;
@@ -63,6 +64,10 @@ p{
     padding-left: 10%;
     padding-right: 10%;
     border-radius: 5%;
+}
+
+.header>p{
+    grid-row-start: 2;
 }
 
 .paras{
@@ -198,8 +203,8 @@ span.logo{
     justify-items: center;
     padding: 2%;
     color: white;
-    background-color: silver;
-    border-bottom: solid rgb(217, 3, 3);
+    background-color: rgb(179, 179, 179);
+    border: solid black;
 }
 
 .bottomfoot>img{
@@ -282,15 +287,17 @@ label{
 }
 
 .mission{
-    background-color: rgb(217, 3, 3);
+    background-color: rgb(102, 102, 102);
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
     padding: 2%;
+    border: solid black;
 }
 
 .mission>h2{
     margin: 0px;
+    color: rgb(217, 3, 3);
 }
 
 .mission>p{
