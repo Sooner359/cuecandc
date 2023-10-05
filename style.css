@@ -39,18 +39,22 @@ p{
     grid-row-start: 1;
 }
 
-.header>.about{
+.header>.services{
     grid-column-start: 4;
+}
+
+.header>.about{
+    grid-column-start: 5;
     grid-row-start: 1;
 }
 
 .header>.contact{
-    grid-column-start: 5;
+    grid-column-start: 6;
     grid-row-start: 1;
 }
 
 .header>.started{
-    grid-column-start: 5;
+    grid-column-start: 7;
     grid-row-start: 1;
     background-color: rgb(217, 3, 3);
     color: white;
