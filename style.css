@@ -53,7 +53,7 @@ p{
     grid-column-start: 5;
     grid-row-start: 1;
     background-color: rgb(217, 3, 3);
-    color: rgb(179, 179, 179);
+    color: white;
     border-radius: 5%;
 }
 
