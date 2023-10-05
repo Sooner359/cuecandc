@@ -262,7 +262,8 @@ fieldset{
 }
 
 .mission{
-    background-color: rgb(102, 102, 102);
+    background-image: url(img/White\ honeycomb\ BG\ RGB.png);
+    background-size: cover;
     display: grid;
     color: rgb(217, 3, 3);
     padding: 2%;
@@ -273,8 +274,9 @@ fieldset{
 }
 
 .mission>p{
-    color: white;
+    color: black;
     font-size: medium;
+    margin-top: 0px;
 }
 
 .solutions{
