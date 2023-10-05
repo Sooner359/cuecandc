@@ -19,7 +19,7 @@ p{
     align-items: center;
     justify-items: center;
     margin-bottom: 5%;
-    grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 5fr 1fr 1fr 1fr 1fr; */
     border-bottom: solid rgb(217, 3, 3);
     padding: 1%;
     position: fixed;
@@ -64,6 +64,7 @@ p{
     padding-left: 10%;
     padding-right: 10%;
     border-radius: 5%;
+    margin: 1em;
 }
 
 .header>p{
