@@ -5,6 +5,11 @@ body{
     background-size: contain;
 }
 
+@font-face{
+    font-family: Orbitron;
+    src: url(./Orbitron-VariableFont_wght.ttf);
+}
+
 p{
     font-size: x-large;
 }
@@ -212,7 +217,7 @@ span.logo{
 }
 
 .reviews>p{
-    background-color: gray;
+    background-color: rgb(102, 102, 102);
     max-width: 66%;
     display: grid;
     justify-items: center;
@@ -247,10 +252,17 @@ footer>p{
 }
 
 fieldset{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+fieldset>button{
+    margin: 4%;
+}
+
+label{
+    grid-column-start: 1;
+    margin: 2%;
 }
 
 .contact{
@@ -262,7 +274,8 @@ fieldset{
 }
 
 .mission{
-    background-image: url(img/White\ honeycomb\ BG\ RGB.png);
+    background-image: url(img/Smaller\ White\ Honeycomb.jpeg);
+    background-repeat: no-repeat;
     background-size: cover;
     display: grid;
     color: rgb(217, 3, 3);
