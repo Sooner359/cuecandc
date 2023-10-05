@@ -23,7 +23,8 @@ p{
     border-bottom: solid silver;
     padding: 1%;
     position: fixed;
-    background-color: rgba(102, 102, 102, 0.821);
+    background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
+    background-size: cover;
 }
 
 .header>.home{
@@ -281,11 +282,10 @@ label{
 }
 
 .mission{
-    background-image: url(img/Smaller\ White\ Honeycomb.jpeg);
+    background-color: rgb(217, 3, 3);
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
-    color: rgb(217, 3, 3);
     padding: 2%;
 }
 
