@@ -11,9 +11,6 @@ body{
     src: url(./Orbitron-VariableFont_wght.ttf);
 }
 
-p{
-    font-size: x-large;
-}
 
 .header{
     display: grid;
@@ -102,13 +99,17 @@ p{
 
 .topbod{
     display: grid;
-    justify-items: center;
+    /* justify-items: center; */
     align-items: center;
     color: white;
     padding: 2%;
 }
 
-.topbod>h1{
+/* .logo{
+    display: grid;
+} */
+
+.toplogo{
     margin-top: 15%;
 }
 
@@ -262,7 +263,7 @@ footer{
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     color: white;
-    border-top: solid white;
+    border-top: solid rgb(217, 3, 3);
     padding: 2%;
 }
 
@@ -277,6 +278,10 @@ footer>button{
 
 footer>p{
     font-size: large;
+}
+
+form{
+    width: 80%;
 }
 
 fieldset{
