@@ -26,7 +26,7 @@ p{
     position: fixed;
     background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
     background-size: cover;
-    padding-bottom: 0;
+    padding-bottom: 2%;
 }
 
 .header>.home{
@@ -76,6 +76,15 @@ p{
     grid-row-start: 2;
     justify-self: end;
 }
+.info{
+    display: grid;
+    align-items: center;
+    color: white;
+    position: fixed;
+    margin-top: 6.5%;
+    justify-items: center;
+    width: 100%;
+}
 
 .paras{
     display: grid;
@@ -119,7 +128,8 @@ span.logo{
 
 .topbod>img{
     grid-column-start: 1;
-    max-width: fit-content;
+    width: 75%;
+    height: 50%;
 }
 
 .midbod{
@@ -145,7 +155,6 @@ span.logo{
     justify-items: center;
     background-color: rgb(217, 3, 3);
     color: white;
-    border-top: solid silver;
 }
 
 .lowerbod{
@@ -204,9 +213,9 @@ span.logo{
     color: white;
 }
 
-.bottomfoot{
+.industries{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     padding: 2%;
     color: white;
@@ -214,16 +223,17 @@ span.logo{
     border: solid black;
 }
 
-.bottomfoot>img{
+.industries>img{
     max-width: 75%;
     min-height: 100%;
     grid-row-start: 2;
 }
 
-.bottomfoot>p{
+.industries>p{
     font-size: large;
     color: black;
     font-weight: bold;
+    justify-items: center;
 }
 
 .reviews{
@@ -285,12 +295,15 @@ label{
     margin: 2%;
 }
 
-.contact{
+.contactForm{
     display: grid;
     justify-items: center;
     align-items: center;
     color: white;
     padding: 2%;
+    background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
+    background-size: cover;
+    background-position-y: 80%;
 }
 
 .mission{
@@ -299,7 +312,8 @@ label{
     background-size: cover;
     display: grid;
     padding: 2%;
-    border: solid black;
+    border-top: solid black;
+    border-bottom: solid black;
 }
 
 .mission>h2{

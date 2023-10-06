@@ -15,13 +15,17 @@
         <a class="about" href="#solution">Solutions</a>
         <a class="reviews" href="">Reviews</a>
         <a class="started" href="#contact">Get Started</a>
-        <p style="color: white; font-size: medium; margin-bottom: 0px;">Contact us for all of your automation & controls needs! &nbsp; &nbsp; &nbsp; <a style="text-decoration: none; color: white;" href="info@cuecandc.com">info@cuecandc.com</a> &nbsp; &nbsp; &nbsp; 1(817)757-2892</p>
+        
     </container>
+    
+    <div class="info">
+            <p style="color: white; font-size: medium; margin-bottom: 0px;">Contact us for all of your automation & controls needs! &nbsp; &nbsp; &nbsp; <a style="text-decoration: none; color: white;" href="info@cuecandc.com">info@cuecandc.com</a> &nbsp; &nbsp; &nbsp; 1(817)757-2892</p>
+    </div>
 
     <div id="home" class="topbod">
         <h1>Take Your Manufacturing To The Next Level With <br>
             <span class="logo" style="color: #df0e0e; font-family: 'Orbitron', Arial; font-style: italic; font-size: xxx-large; font-weight: 700; vertical-align: baseline; grid-row-start: 2; grid-column-start: 1;">Cue</span> <span class="logo" style="color: #b7b7b7; font-family: Orbitron, Arial; font-style: italic; font-weight: 700; vertical-align: baseline; grid-row-start: 2; grid-column-start: 1;">Contracting & Consulting LLC</span></h1>
-        <img src="img/Automation.jpg" alt="">
+        <img src="img/circuit.png" alt="">
         <!-- <p style="grid-row-start: 1;"><br><br>Contact us for all of your automation & controls needs! info@cuecandc.com 1(817)757-2892</p> -->
         <p>We believe that automation is the future of manufacturing. <br> <br> We provide cutting-edge solutions and a stream-lined <br>experience that will maximize your productivity and <br>efficiency. From envisioning a solution to project <br>completion, and support in between, our team of experts <br>has the knowledge and experience to take your business <br>to the next level.</p>
 
@@ -55,7 +59,7 @@
 
     
 
-    <container class="bottomfoot">
+    <container class="industries">
         <p style="grid-column-start: 1;">Agriculture</p>
         <img style="grid-column-start: 1;" src="img/Agriculture.jpg" alt="">
         <p style="grid-column-start: 2;">Building Materials</p>
@@ -68,6 +72,8 @@
         <img style="grid-column-start: 5;" src="img/MaterialHandling.jpg" alt="">
         <p style="grid-column-start: 6;">Oil and Gas</p>
         <img id="solution" style="grid-column-start: 6;" src="img/OilGas.jpg" alt="">
+        <p style="grid-column-start: 7;">Product Manufacturing</p>
+        <img id="solution" style="grid-column-start: 7;" src="img/ProductManufacturing.jpg" alt="">
     </container>
 
     <!-- <container class="heading">
@@ -117,7 +123,7 @@
             <li>Provide innovative project objectives that will optimize your manufacturing.</li>
         </ul>
 
-        <h2 style="grid-column-start: 2; grid-row-start: 2;">Controls & Programming</h2>
+        <h2 style="grid-column-start: 2; grid-row-start: 3;">Controls & Programming</h2>
         <p style="grid-column-start: 2;">At Cue Contracting & Consulting LLC, we will work with you to build a custom controls system to increase your production capacity, improve your product quality, and reduce waste.</p>
         <ul style="grid-column-start: 2;">
             <li>PLCs & HMIs</li>
@@ -126,7 +132,7 @@
             <li>Instrumentation</li>
             <li>Message Boards</li>
         </ul>
-        <h2 style="grid-column-start: 1; grid-row-start: 4;">Integration</h2>
+        <h2 style="grid-column-start: 1; grid-row-start: 5;">Integration</h2>
         <p style="grid-column-start: 1;">At Cue Contracting & Consulting LLC, we will provide device installation, and a stream-lined experience to support you in all of your automation needs.</p>
         <ul style="grid-column-start: 1;">
             <li>PLCs & supporting devices</li>
@@ -137,7 +143,7 @@
             <li id="story">Component & device wiring</li>
         </ul>
 
-        <h2 style="grid-column-start: 2; grid-row-start: 5;">Support</h2>
+        <h2 style="grid-column-start: 2; grid-row-start: 7;">Support</h2>
         <p style="grid-column-start: 2;">At Cue Contracting & Consulting LLC, we will provide emergency support, and a unique maintenance service experience to assist you in all of your automation needs.</p>
         <ul style="grid-column-start: 2;">
             <li>Emergency field service & troubleshooting support</li>
@@ -180,34 +186,30 @@
     <h1 style="margin: 0px;">We usually respond within 24 hours</h1>
    </container>
     
-    <container class="contact">
-        <form method="post" action="" class="info">
-            <!-- <div class="subTitle" style="background-color: rgb(102, 102, 102);">
-                <p style="font-size: xx-large;">Submit a request</p>
-                <p>We usually respond within 24 hours</p>
-            </div> -->
+    <container class="contactForm">
+        <form method="post" action="">
             <fieldset>
                 <legend style="font-size: xx-large;">Contact Form</legend>
                 <div class="title">* Indicates a required field</div>
-                <label for="fName">*First Name:</label><br>
-                <input type="text" id="fName" name="fName" placeholder="First" required><br>
+                <label for="fName" style="grid-column-start: 1; grid-row-start: 2;">*First Name:</label><br>
+                <input type="text" id="fName" name="fName" placeholder="First" style="grid-column-start: 1; grid-row-start: 3;" required><br>
 
-                <label for="lName">*Last Name:</label><br>
-                <input type="text" name="lName" id="lName" placeholder="Last" required><br>
+                <!-- <label for="lName" style="grid-column-start: 1; grid-row-start: 4;">*Last Name:</label><br>
+                <input type="text" name="lName" id="lName" placeholder="Last" style="grid-column-start: 1; grid-row-start: 5;" required><br> -->
 
-                <label for="email">*Email:</label><br>
-                <input type="email" name="email" id="email" placeholder="Email@Email.com" required><br>
+                <label for="email" style="grid-column-start: 3; grid-row-start: 2;">*Email:</label><br>
+                <input type="email" name="email" id="email" placeholder="Email@Email.com" style="grid-column-start: 3; grid-row-start: 3;" required><br>
 
-                <label for="phone">*Phone Number:</label><br>
-                <input type="tel" id="phone" name="phone" placeholder="555-555-5555" required><br>
+                <label for="phone" style="grid-column-start: 3; grid-row-start: 4;">*Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="555-555-5555" style="grid-column-start: 3; grid-row-start: 5;" required><br>
 
-                <label for="company">Company:</label><br>
-                <input type="text" id="company" name="company" placeholder="Company Name"><br>
+                <label for="company" style="grid-column-start: 1; grid-row-start: 4;">Company Name:</label><br>
+                <input type="text" id="company" name="company" placeholder="Company Name" style="grid-column-start: 1; grid-row-start: 5;"><br>
 
-                <label for="comments">*Comments:</label><br>
-                <textarea id="comments" name="comments" placeholder="Your comments here..." required></textarea><br>
+                <label for="comments" style="grid-column-start: 2; grid-row-start: 4;">*Comments:</label><br>
+                <textarea id="comments" name="comments" placeholder="Your comments here..." style="grid-column-start: 2; grid-row-start: 6; max-width: 300px; height: 100px;" required></textarea><br>
 
-                <button id="subBut" type="submit">Submit</button>
+                <button id="subBut" type="submit" style="grid-column-start: 2;">Submit</button>
             </fieldset>
         </form>
     </container>
