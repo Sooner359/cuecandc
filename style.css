@@ -281,12 +281,12 @@ footer>p{
 }
 
 form{
-    width: 80%;
+    width: 66%;
 }
 
 fieldset{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.5 fr 2fr 1fr 2fr;
 }
 
 fieldset>button{
@@ -308,6 +308,14 @@ label{
     background-size: cover;
     background-position-y: 80%;
 }
+
+input, textarea{
+    background: none;
+    border: none;
+    border-bottom: solid rgb(217, 3, 3);
+    color: white;
+}
+
 
 .mission{
     background-color: rgb(179, 179, 179);
