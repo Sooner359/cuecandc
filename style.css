@@ -316,6 +316,11 @@ input, textarea{
     color: white;
 }
 
+::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+
 
 .mission{
     background-color: rgb(179, 179, 179);
