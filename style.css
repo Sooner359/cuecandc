@@ -286,6 +286,7 @@ form{
 
 fieldset{
     display: grid;
+    padding-left: 9%;
     /* grid-template-columns: 1.5fr 2fr 1fr 2fr; */
 }
 
@@ -315,6 +316,10 @@ input, textarea{
     border-bottom: solid rgb(217, 3, 3);
     color: white;
 }
+
+/* label, input, textarea{
+    padding-left: 20%;
+} */
 
 ::placeholder {
     color: red;
