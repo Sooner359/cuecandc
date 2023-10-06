@@ -128,8 +128,6 @@ span.logo{
 
 .topbod>img{
     grid-column-start: 1;
-    width: 75%;
-    height: 50%;
 }
 
 .midbod{
