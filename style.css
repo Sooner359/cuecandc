@@ -85,10 +85,11 @@ body{
 
     .paras{
         display: grid;
-        color: white;
-        background-color: rgb(217, 3, 3);
-        border-top: solid silver;
-        border-bottom: solid silver;
+        color: black;
+        background-color: #b7b7b7;
+        border-top: solid #b7b7b7;
+        border-bottom: solid rgb(217, 3, 3);
+        /* clip-path: polygon(0 100%, 0 3%, 100% 7%, 100% 100%, 50% 100%, 0 110%); */
     }
 
     .paras>p{
@@ -125,7 +126,7 @@ body{
 
     span.logo{
         font-size: xx-large;
-        color: #b7b7b7;
+        color: #b3b3b3;
         font-family: Orbitron, Arial;
         font-style: italic;
         font-size: xx-large;
