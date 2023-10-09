@@ -103,6 +103,7 @@ body{
         align-items: center;
         color: white;
         justify-items: center;
+        margin-bottom: -1em;
     }
 
     /* .logo{
