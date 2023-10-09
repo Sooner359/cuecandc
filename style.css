@@ -87,9 +87,13 @@ body{
         display: grid;
         color: white;
         background-color: rgb(217, 3, 3);
-        padding: 2%;
         border-top: solid silver;
         border-bottom: solid silver;
+    }
+
+    .paras>p{
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     .paras>img{
