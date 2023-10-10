@@ -378,6 +378,8 @@ body{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         padding: 2%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 
     .solutions>h2{
@@ -399,36 +401,36 @@ body{
     #brain{
         grid-column-start: 2;
         grid-row-start: 3;
-        width: 50%;
-        margin-top: -10%;
+        width: 30%;
+        margin-top: -5%;
         margin-bottom: 10%;
-        margin-left: 20%;
+        margin-left: 35%;
     }
 
     #computer{
         grid-column-start: 1;
         grid-row-start: 5;
-        width: 50%;
-        margin-top: -10%;
+        width: 30%;
+        margin-top: -5%;
         margin-bottom: 10%;
-        margin-left: 20%;
+        margin-left: 35%;
     }
 
     #gear{
         grid-column-start: 2;
         grid-row-start: 7;
-        width: 50%;
-        margin-top: -10%;
+        width: 30%;
+        margin-top: -5%;
         margin-bottom: 10%;
-        margin-left: 20%;
+        margin-left: 35%;
     }
 
     #wrench{
         grid-column-start: 1;
         grid-row-start: 9;
-        width: 50%;
-        margin-top: -10%;
-        margin-left: 20%;
+        width: 30%;
+        margin-bottom: 5.5%;
+        margin-left: 35%;
     }
     /* Mobile Format */
 
