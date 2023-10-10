@@ -93,7 +93,7 @@ body{
         display: grid;
         color: white;
         background-color: rgb(217, 3, 3);
-        border-top: solid #b7b7b7;
+        border-top: solid rgb(217, 3, 3);
         border-bottom: solid #b3b3b3;
         /* clip-path: polygon(0 100%, 0 3%, 100% 7%, 100% 100%, 50% 100%, 0 110%); */
     }
