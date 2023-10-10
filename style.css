@@ -17,13 +17,15 @@ body{
     align-items: center;
     justify-items: center;
     margin-bottom: 5%;
-    /* grid-template-columns: 5fr 1fr 1fr 1fr 1fr; */
     border-bottom: solid rgb(217, 3, 3);
     padding: 1%;
     position: fixed;
     background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
     background-size: cover;
     padding-bottom: 2%;
+    height: 15%;
+    left: -.5px;
+    top: -.5px;
 }
 
 .header>.home{
@@ -78,7 +80,7 @@ body{
         align-items: center;
         color: white;
         position: fixed;
-        margin-top: 6.5%;
+        margin-top: 5.5%;
         justify-items: center;
         width: 100%;
     }
