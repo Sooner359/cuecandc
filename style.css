@@ -399,24 +399,36 @@ body{
     #brain{
         grid-column-start: 2;
         grid-row-start: 3;
+        width: 50%;
+        margin-top: -10%;
+        margin-bottom: 10%;
+        margin-left: 20%;
     }
 
     #computer{
         grid-column-start: 1;
         grid-row-start: 5;
-        width: 100%;
+        width: 50%;
+        margin-top: -10%;
+        margin-bottom: 10%;
+        margin-left: 20%;
     }
 
     #gear{
         grid-column-start: 2;
         grid-row-start: 7;
-        width: 100%;
+        width: 50%;
+        margin-top: -10%;
+        margin-bottom: 10%;
+        margin-left: 20%;
     }
 
     #wrench{
         grid-column-start: 1;
         grid-row-start: 9;
-        width: 100%;
+        width: 50%;
+        margin-top: -10%;
+        margin-left: 20%;
     }
     /* Mobile Format */
 
