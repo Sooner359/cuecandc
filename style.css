@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
     margin: 0px;
