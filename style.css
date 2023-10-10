@@ -24,8 +24,8 @@ body{
     background-size: cover;
     padding-bottom: 2%;
     height: 15%;
-    left: -.5px;
-    top: -.5px;
+    left: -.5%;
+    top: -.5%;
 }
 
 .header>.home{
