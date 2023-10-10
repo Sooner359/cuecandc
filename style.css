@@ -256,15 +256,14 @@ body{
         justify-items: center;
         align-items: center;
         color: white;
-        padding: 2%;
         background-image: url(img/Black\ honeycomb\ BG\ RGB.png);
         background-size: cover;
+        padding-bottom: 1%;
     }
 
     .reviews>p{
         font-size: x-large;
     }
-
 
     .reviews>#story{
         background-color: rgb(102, 102, 102);
