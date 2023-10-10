@@ -393,6 +393,29 @@ body{
         font-weight: bold;
     }
 
+    #brain{
+        grid-column-start: 2;
+        grid-row-start: 3;
+        width: 100%;
+    }
+
+    #computer{
+        grid-column-start: 1;
+        grid-row-start: 5;
+        width: 100%;
+    }
+
+    #gear{
+        grid-column-start: 2;
+        grid-row-start: 7;
+        width: 100%;
+    }
+
+    #wrench{
+        grid-column-start: 1;
+        grid-row-start: 9;
+        width: 100%;
+    }
     /* Mobile Format */
 
     /* @media screen and (max-width: 600px){
